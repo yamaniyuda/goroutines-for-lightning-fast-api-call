@@ -7,7 +7,7 @@ type NatureResult struct {
 
 type StatChange struct {
 	MaxChange float32        `json:"max_change"`
-	stats     PokeathlonStat `json:pokeathlon_stat`
+	Stats     PokeathlonStat `json:pokeathlon_stat`
 }
 
 type PokeathlonStat struct {
